@@ -7,4 +7,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
+
+    <!-- DerpFest maintainer -->
+    <string name="maintainer_name">Akshay</string>
+    <string name="maintainer_telegram">https://t.me/pandemonium_haydn</string>
 </resources>
