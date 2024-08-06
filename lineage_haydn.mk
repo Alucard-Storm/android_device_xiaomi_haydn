@@ -14,6 +14,18 @@ $(call inherit-product, device/xiaomi/haydn/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Rising Flags
+RISING_MAINTAINER := Akshay
+RISING_DEVICE := haydn
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon® 888" \
+    RISING_MAINTAINER="Akshay" \
+    RISING_DEVICE="haydn"
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := haydn
 PRODUCT_MANUFACTURER := Xiaomi
