@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/haydn/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# BCR
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
 # Rising Flags
 RISING_MAINTAINER := Akshay
 RISING_DEVICE := haydn
